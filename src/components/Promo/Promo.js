@@ -1,14 +1,14 @@
 import { colors } from "../../constants";
-import persona1 from "../../assets/persona1.jpeg";
-import persona2 from "../../assets/persona2.jpeg";
-import persona3 from "../../assets/persona3.jpeg";
-import persona4 from "../../assets/persona4.jpeg";
-import persona5 from "../../assets/persona5.jpeg";
-import persona6 from "../../assets/persona6.jpeg";
-import persona7 from "../../assets/persona7.jpeg";
-import persona8 from "../../assets/persona8.jpeg";
-import persona9 from "../../assets/persona9.jpeg";
-import persona10 from "../../assets/persona10.jpeg";
+import persona1 from "../../assets/persona1.jpg";
+import persona2 from "../../assets/persona2.jpg";
+import persona3 from "../../assets/persona3.jpg";
+import persona4 from "../../assets/persona4.jpg";
+import persona5 from "../../assets/persona5.jpg";
+import persona6 from "../../assets/persona6.jpg";
+import persona7 from "../../assets/persona7.jpg";
+import persona8 from "../../assets/persona8.jpg";
+import persona9 from "../../assets/persona9.jpg";
+import persona10 from "../../assets/persona10.jpg";
 import {
   StyledSection,
   StyledHeading,

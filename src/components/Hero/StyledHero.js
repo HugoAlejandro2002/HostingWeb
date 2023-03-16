@@ -4,6 +4,7 @@ import Button from "../Button/Button";
 import CelestialObject from "../CelestialObject/CelestialObject";
 import { BackgroundSVG } from "./Hero";
 
+
 export const StyledSection = styled.section`
   position: relative;
   min-height: 90vh;
@@ -78,7 +79,5 @@ export const StyledWaveBackground = styled.svg`
   inset-block-end: 0;
   inset-inline: 0;
 
-  @media (min-width: 48em) {
-    display: block;
-  }
+  
 `

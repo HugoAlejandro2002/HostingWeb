@@ -13,9 +13,9 @@ const Header = () => {
       <header className="header-wrapper">
         <HeaderStyle>
           <>
-          <img src={logo1} width="15%"/>
+          <img src={logo1} width={"8%"} height={"5%"} align="left" padding="0" />
           <Link to="/" aling="left"> 
-          
+
           <h4 align="center" >ETHICAL HACKING </h4>
            <h6 align="center" >STUDENTS CLUB</h6></Link>
            </>
