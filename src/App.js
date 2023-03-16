@@ -13,6 +13,7 @@ import BodyPage from "./pages/Body/Body";
 import PlanetsPage from "./pages/Planets/Planets";
 import AboutPage from "./pages/About/About";
 import ContactPage from "./pages/Contact/Contact";
+import LoginPage from "./pages/Login/Login";
 
 function App() {
   const location = useLocation();
@@ -31,6 +32,7 @@ function App() {
           <Route path="/body/:id" element={<BodyPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
         <Footer />
       </Layout>

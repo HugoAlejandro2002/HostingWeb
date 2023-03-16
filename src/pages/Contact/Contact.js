@@ -8,20 +8,14 @@ import {
   StyledSubmitButton
 } from "./StyledContact";
 
+import { auth } from '../../services/firebase';
+
 const ContactPage = () => {
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-
-    alert("Form may or may not have been submitted :)");
-
-    e.target.reset();
-  }
-
   return (
     <>
       <PageHeader title="Contact" />
       <section>
-        <StyledForm onSubmit={handleFormSubmit}>
+        <StyledForm>
           <StyledLabel>
             Name:
             <StyledInput type="text "name="name" required />
@@ -37,7 +31,7 @@ const ContactPage = () => {
             <StyledTextArea name="message" required />
           </StyledLabel>
 
-          <StyledSubmitButton type="submit" value="Send" />
+          <StyledSubmitButton type="submit" value="Send"/>
         </StyledForm>
       </section>
     </>
